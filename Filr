@@ -1,0 +1,32 @@
+#include<studio.h>
+#include<conio.h>
+Int main()
+{
+FILE*fp;
+Church,fname[30],newch[500];
+Iny i=0;j,COUNT=0;
+Printf("enter the filename with extension:");
+Gets(fname);
+Return 0;
+}
+Printf("\n the original content is :\n\n");
+Ch=getc(fp);
+While (ch!=EOF)
+{
+COUNT++;
+put char(ch);
+Newch[i]=ch;
+J++
+Ch=getc(fp);
+}
+Printf("\n\n\n");
+Printf("the content in reverse order is:\n\n");
+For(j=(COUNT+-1);
+J>=0;j--)
+{
+Ch=newch[j];
+Printf("%c",ch);
+}
+Printf("\n");
+Getch();
+Return 0;
